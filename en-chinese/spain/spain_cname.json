@@ -1,0 +1,226 @@
+[
+    {
+        "name": "Alaves",
+        "cnName": "阿拉维斯"
+    },
+    {
+        "name": "Ath Bilbao",
+        "cnName": "毕尔巴鄂竞技"
+    },
+    {
+        "name": "Ath Madrid",
+        "cnName": "马德里竞技"
+    },
+    {
+        "name": "Barcelona",
+        "cnName": "巴塞罗那"
+    },
+    {
+        "name": "Betis",
+        "cnName": "贝蒂斯"
+    },
+    {
+        "name": "Cadiz",
+        "cnName": "卡迪斯"
+    },
+    {
+        "name": "Celta",
+        "cnName": "塞尔塔"
+    },
+    {
+        "name": "Espanol",
+        "cnName": "西班牙人"
+    },
+    {
+        "name": "Getafe",
+        "cnName": "赫塔菲"
+    },
+    {
+        "name": "La Coruna",
+        "cnName": "拉科鲁尼亚"
+    },
+    {
+        "name": "Malaga",
+        "cnName": "马拉加"
+    },
+    {
+        "name": "Mallorca",
+        "cnName": "马洛卡"
+    },
+    {
+        "name": "Osasuna",
+        "cnName": "奥萨苏纳"
+    },
+    {
+        "name": "Real Madrid",
+        "cnName": "皇家马德里"
+    },
+    {
+        "name": "Santander",
+        "cnName": "桑坦德竞技"
+    },
+    {
+        "name": "Sevilla",
+        "cnName": "塞维利亚"
+    },
+    {
+        "name": "Sociedad",
+        "cnName": "皇家社会"
+    },
+    {
+        "name": "Valencia",
+        "cnName": "瓦伦西亚"
+    },
+    {
+        "name": "Villarreal",
+        "cnName": "比利亚雷亚尔"
+    },
+    {
+        "name": "Zaragoza",
+        "cnName": "萨拉戈萨"
+    },
+    {
+        "name": "Albacete",
+        "cnName": "阿尔巴塞特"
+    },
+    {
+        "name": "Almeria",
+        "cnName": "阿尔梅里亚"
+    },
+    {
+        "name": "Castellon",
+        "cnName": "卡斯迪隆"
+    },
+    {
+        "name": "Ciudad de Murcia",
+        "cnName": "穆尔西亚"
+    },
+    {
+        "name": "Eibar",
+        "cnName": "埃瓦尔"
+    },
+    {
+        "name": "Elche",
+        "cnName": "埃尔切"
+    },
+    {
+        "name": "Ferrol",
+        "cnName": "费罗尔竞技"
+    },
+    {
+        "name": "Gimnastic",
+        "cnName": "塔拉戈纳"
+    },
+    {
+        "name": "Hercules",
+        "cnName": "赫库斯"
+    },
+    {
+        "name": "Levante",
+        "cnName": "莱万特"
+    },
+    {
+        "name": "Lleida",
+        "cnName": "莱里达"
+    },
+    {
+        "name": "Lorca",
+        "cnName": "洛卡"
+    },
+    {
+        "name": "Malaga B",
+        "cnName": "马拉加B队"
+    },
+    {
+        "name": "Murcia",
+        "cnName": "穆尔西亚"
+    },
+    {
+        "name": "Numancia",
+        "cnName": "努曼西亚"
+    },
+    {
+        "name": "Poli Ejido",
+        "cnName": "艾积多"
+    },
+    {
+        "name": "Real Madrid B",
+        "cnName": "皇家马德里B队"
+    },
+    {
+        "name": "Recreativo",
+        "cnName": "维尔瓦"
+    },
+    {
+        "name": "Sp Gijon",
+        "cnName": "希洪竞技"
+    },
+    {
+        "name": "Tenerife",
+        "cnName": "特内里费"
+    },
+    {
+        "name": "Valladolid",
+        "cnName": "巴利亚多利德"
+    },
+    {
+        "name": "Xerez",
+        "cnName": "萨雷斯"
+    },
+    {
+        "name": "Girona",
+        "cnName": "赫罗纳"
+    },
+    {
+        "name": "Huesca",
+        "cnName": "韦斯卡"
+    },
+    {
+        "name": "Leganes",
+        "cnName": "莱加内斯"
+    },
+    {
+        "name": "Vallecano",
+        "cnName": "巴列卡诺"
+    },
+    {
+        "name": "Alcorcon",
+        "cnName": "艾科坎"
+    },
+    {
+        "name": "Cordoba",
+        "cnName": "科尔多瓦"
+    },
+    {
+        "name": "Extremadura UD",
+        "cnName": "埃斯特雷马杜拉"
+    },
+    {
+        "name": "Gimnastic",
+        "cnName": "费罗尔竞技"
+    },
+    {
+        "name": "Granada",
+        "cnName": "格拉纳达"
+    },
+    {
+        "name": "Las Palmas",
+        "cnName": "拉斯帕尔马斯"
+    },
+    {
+        "name": "Lugo",
+        "cnName": "鲁勾"
+    },
+    {
+        "name": "Oviedo",
+        "cnName": "奥维耶多"
+    },
+    {
+        "name": "Rayo Majadahonda",
+        "cnName": "马哈达洪达"
+    },
+    {
+        "name": "Reus Deportiu",
+        "cnName": "雷乌斯"
+    }
+]

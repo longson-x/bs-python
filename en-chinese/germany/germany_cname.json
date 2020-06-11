@@ -1,0 +1,198 @@
+[
+    {
+        "name": "Bayern Munich",
+        "cnName": "拜仁慕尼黑"
+    },
+    {
+        "name": "Bielefeld",
+        "cnName": "比勒菲尔德"
+    },
+    {
+        "name": "Dortmund",
+        "cnName": "多特蒙德"
+    },
+    {
+        "name": "Duisburg",
+        "cnName": "杜伊斯堡"
+    },
+    {
+        "name": "Ein Frankfurt",
+        "cnName": "法兰克福"
+    },
+    {
+        "name": "FC Koln",
+        "cnName": "科隆"
+    },
+    {
+        "name": "Hamburg",
+        "cnName": "汉堡"
+    },
+    {
+        "name": "Hannover",
+        "cnName": "汉诺威96"
+    },
+    {
+        "name": "Hertha",
+        "cnName": "柏林赫塔"
+    },
+    {
+        "name": "Kaiserslautern",
+        "cnName": "凯泽斯劳滕"
+    },
+    {
+        "name": "Leverkusen",
+        "cnName": "勒沃库森"
+    },
+    {
+        "name": "M'gladbach",
+        "cnName": "门兴格拉德巴赫"
+    },
+    {
+        "name": "Mainz",
+        "cnName": "美因茨"
+    },
+    {
+        "name": "Nurnberg",
+        "cnName": "纽伦堡"
+    },
+    {
+        "name": "Schalke 04",
+        "cnName": "沙尔克04"
+    },
+    {
+        "name": "Stuttgart",
+        "cnName": "斯图加特"
+    },
+    {
+        "name": "Werder Bremen",
+        "cnName": "云达不莱梅"
+    },
+    {
+        "name": "Wolfsburg",
+        "cnName": "沃尔夫斯堡"
+    },
+    {
+        "name": "Aachen",
+        "cnName": "亚琛"
+    },
+    {
+        "name": "Ahlen",
+        "cnName": "阿伦"
+    },
+    {
+        "name": "Bochum",
+        "cnName": "波鸿"
+    },
+    {
+        "name": "Braunschweig",
+        "cnName": "布伦瑞克"
+    },
+    {
+        "name": "Burghausen",
+        "cnName": "布格豪森"
+    },
+    {
+        "name": "Cottbus",
+        "cnName": "科特布斯"
+    },
+    {
+        "name": "Dresden",
+        "cnName": "德累斯顿"
+    },
+    {
+        "name": "Erzgebirge Aue",
+        "cnName": "奥厄"
+    },
+    {
+        "name": "Freiburg",
+        "cnName": "弗赖堡"
+    },
+    {
+        "name": "Greuther Furth",
+        "cnName": "菲尔特"
+    },
+    {
+        "name": "Hansa Rostock",
+        "cnName": "罗斯托克"
+    },
+    {
+        "name": "Karlsruhe",
+        "cnName": "卡尔斯鲁厄"
+    },
+    {
+        "name": "Munich 1860",
+        "cnName": "慕尼黑1860"
+    },
+    {
+        "name": "Offenbach",
+        "cnName": "奥芬巴查踢球者"
+    },
+    {
+        "name": "Paderborn",
+        "cnName": "帕德博恩"
+    },
+    {
+        "name": "Saarbrucken",
+        "cnName": "萨尔布吕肯"
+    },
+    {
+        "name": "Siegen",
+        "cnName": "西尔根"
+    },
+    {
+        "name": "Unterhaching",
+        "cnName": "温特哈兴"
+    },
+    {
+        "name": "Augsburg",
+        "cnName": "奥格斯堡"
+    },
+    {
+        "name": "Fortuna Dusseldorf",
+        "cnName": "杜塞尔多夫"
+    },
+    {
+        "name": "Hoffenheim",
+        "cnName": "霍芬海姆"
+    },
+    {
+        "name": "RB Leipzig",
+        "cnName": "莱比锡红牛"
+    },
+    {
+        "name": "Darmstadt",
+        "cnName": "达姆斯塔特"
+    },
+    {
+        "name": "Heidenheim",
+        "cnName": "海登海默"
+    },
+    {
+        "name": "Holstein Kiel",
+        "cnName": "荷尔斯泰因基尔"
+    },
+    {
+        "name": "Ingolstadt",
+        "cnName": "因戈尔施塔特"
+    },
+    {
+        "name": "Magdeburg",
+        "cnName": "马格德堡"
+    },
+    {
+        "name": "Regensburg",
+        "cnName": "雷根斯堡"
+    },
+    {
+        "name": "Sandhausen",
+        "cnName": "桑德豪森"
+    },
+    {
+        "name": "St Pauli",
+        "cnName": "圣保利"
+    },
+    {
+        "name": "Union Berlin",
+        "cnName": "柏林联"
+    }
+]

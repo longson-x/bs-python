@@ -1,0 +1,214 @@
+[
+    {
+        "name": "Ascoli",
+        "cnName": "阿斯科利"
+    },
+    {
+        "name": "Atalanta",
+        "cnName": "亚特兰大"
+    },
+    {
+        "name": "Cagliari",
+        "cnName": "卡利亚里"
+    },
+    {
+        "name": "Catania",
+        "cnName": "卡塔尼亚"
+    },
+    {
+        "name": "Chievo",
+        "cnName": "切沃"
+    },
+    {
+        "name": "Empoli",
+        "cnName": "恩波利"
+    },
+    {
+        "name": "Fiorentina",
+        "cnName": "佛罗伦萨"
+    },
+    {
+        "name": "Inter",
+        "cnName": "国际米兰"
+    },
+    {
+        "name": "Lazio",
+        "cnName": "拉齐奥"
+    },
+    {
+        "name": "Livorno",
+        "cnName": "利沃诺"
+    },
+    {
+        "name": "Messina",
+        "cnName": "梅西纳"
+    },
+    {
+        "name": "Milan",
+        "cnName": "AC米兰"
+    },
+    {
+        "name": "Palermo",
+        "cnName": "巴勒莫"
+    },
+    {
+        "name": "Parma",
+        "cnName": "帕尔马"
+    },
+    {
+        "name": "Reggina",
+        "cnName": "雷吉纳"
+    },
+    {
+        "name": "Roma",
+        "cnName": "罗马"
+    },
+    {
+        "name": "Sampdoria",
+        "cnName": "桑普多利亚"
+    },
+    {
+        "name": "Siena",
+        "cnName": "锡耶纳"
+    },
+    {
+        "name": "Torino",
+        "cnName": "都灵"
+    },
+    {
+        "name": "Udinese",
+        "cnName": "乌迪内斯"
+    },
+    {
+        "name": "Albinoleffe",
+        "cnName": "阿尔比诺勒菲"
+    },
+    {
+        "name": "Arezzo",
+        "cnName": "阿雷佐"
+    },
+    {
+        "name": "Bari",
+        "cnName": "巴里"
+    },
+    {
+        "name": "Bologna",
+        "cnName": "博洛尼亚"
+    },
+    {
+        "name": "Brescia",
+        "cnName": "布雷西亚"
+    },
+    {
+        "name": "Cesena",
+        "cnName": "切塞纳"
+    },
+    {
+        "name": "Crotone",
+        "cnName": "克罗托内"
+    },
+    {
+        "name": "Frosinone",
+        "cnName": "弗洛西诺尼"
+    },
+    {
+        "name": "Genoa",
+        "cnName": "热那亚"
+    },
+    {
+        "name": "Juventus",
+        "cnName": "尤文图斯"
+    },
+    {
+        "name": "Lecce",
+        "cnName": "莱切"
+    },
+    {
+        "name": "Mantova",
+        "cnName": "曼托瓦"
+    },
+    {
+        "name": "Modena",
+        "cnName": "摩德纳"
+    },
+    {
+        "name": "Napoli",
+        "cnName": "那不勒斯"
+    },
+    {
+        "name": "Pescara",
+        "cnName": "佩斯卡拉"
+    },
+    {
+        "name": "Piacenza",
+        "cnName": "皮亚琴察"
+    },
+    {
+        "name": "Rimini",
+        "cnName": "里米尼"
+    },
+    {
+        "name": "Spezia",
+        "cnName": "斯佩齐亚"
+    },
+    {
+        "name": "Treviso",
+        "cnName": "特雷维索"
+    },
+    {
+        "name": "Triestina",
+        "cnName": "特里埃斯蒂纳"
+    },
+    {
+        "name": "Verona",
+        "cnName": "维罗纳"
+    },
+    {
+        "name": "Vicenza",
+        "cnName": "维琴察"
+    },
+    {
+        "name": "Cittadella",
+        "cnName": "希塔德拉"
+    },
+    {
+        "name": "Grosseto",
+        "cnName": "格罗瑟托"
+    },
+    {
+        "name": "Juve Stabia",
+        "cnName": "史泰比亚"
+    },
+    {
+        "name": "Novara",
+        "cnName": "诺瓦拉"
+    },
+    {
+        "name": "Padova",
+        "cnName": "帕多瓦"
+    },
+    {
+        "name": "Pro Vercelli",
+        "cnName": "韦尔切利"
+    },
+    {
+        "name": "Sassuolo",
+        "cnName": "萨索洛"
+    },
+    {
+        "name": "Ternana",
+        "cnName": "特拉纳"
+    },
+    {
+        "name": "Varese",
+        "cnName": "瓦雷斯"
+    },
+    {
+        "name": "Virtus Lanciano",
+        "cnName": "兰西安奴"
+    },
+    {
+        "name": "Spal",
+        "cnName": "斯帕尔"
+    }
+]

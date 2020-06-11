@@ -1,0 +1,149 @@
+比赛总数: 4900
+总特征数: 10    
+主场胜利数: 2261
+主场胜率: 46.14%
+Processed feature columns (22 total features):
+['HTGD', 'ATGD', 'HTP', 'ATP', 'HM1_D', 'HM1_L', 'HM1_W', 'AM1_D', 'AM1_L', 'AM1_W', 'HM2_D', 'HM2_L', 'HM2_W', 'AM2_D', 'AM2_L', 'AM2_W', 'HM3_D', 'HM3_L', 'HM3_W', 'AM3_D', 'AM3_L', 'AM3_W']
+
+Feature values:
+训练 LogisticRegression 模型，样本数量 4850. . .
+训练时间 0.1091 秒
+预测时间 in 0.0020 秒
+训练集上的 F1 分数和准确率为: 0.3939 , 0.5235.
+预测时间 in 0.0010 秒
+测试集上的 F1 分数和准确率为: 0.3481 , 0.4600.
+
+训练 XGBClassifier 模型，样本数量 4850. . .
+训练时间 0.7505 秒
+预测时间 in 0.0349 秒
+训练集上的 F1 分数和准确率为: 0.9160 , 0.9186.
+预测时间 in 0.0040 秒
+测试集上的 F1 分数和准确率为: 0.3519 , 0.4000.
+
+XGBClassifier(base_score=0.5, booster=None, colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints=None,
+              learning_rate=0.300000012, max_delta_step=0, max_depth=5,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=90, n_jobs=0, num_parallel_tree=1,
+              objective='multi:softprob', random_state=42, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=None, seed=42, subsample=1,
+              tree_method=None, validate_parameters=False, verbosity=None)
+预测时间 in 0.0249 秒
+F1 score and accuracy score for training set: 0.7857 , 0.8016.
+预测时间 in 0.0030 秒
+F1 score and accuracy score for test set: 0.2802 , 0.3200.
+
+
+
+
+
+
+[0.40356407 0.40503838 0.40515671]
+[{'n_estimators': 100}, {'n_estimators': 200}, {'n_estimators': 300}]
+参数的最佳取值：{'n_estimators': 300}
+最佳模型得分:0.4051567096496978
+XGBClassifier(base_score=0.5, booster=None, colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints=None,
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=300, n_jobs=0, num_parallel_tree=1,
+              objective='multi:softprob', random_state=0, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=None, subsample=1,
+              tree_method=None, validate_parameters=False, verbosity=None)
+预测时间 in 0.0988 秒
+F1 score and accuracy score for training set: 0.9997 , 0.9998.
+预测时间 in 0.0020 秒
+F1 score and accuracy score for test set: 0.3091 , 0.3600.
+
+
+[0.40503838 0.40515671 0.40060067]
+[{'n_estimators': 200}, {'n_estimators': 300}, {'n_estimators': 400}]
+参数的最佳取值：{'n_estimators': 300}
+最佳模型得分:0.4051567096496978
+XGBClassifier(base_score=0.5, booster=None, colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints=None,
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=300, n_jobs=0, num_parallel_tree=1,
+              objective='multi:softprob', random_state=0, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=None, subsample=1,
+              tree_method=None, validate_parameters=False, verbosity=None)
+预测时间 in 0.0977 秒
+F1 score and accuracy score for training set: 0.9997 , 0.9998.
+预测时间 in 0.0050 秒
+F1 score and accuracy score for test set: 0.3091 , 0.3600.
+
+
+[0.40690325 0.40379951 0.40515671]
+[{'n_estimators': 120}, {'n_estimators': 210}, {'n_estimators': 300}]
+参数的最佳取值：{'n_estimators': 120}
+最佳模型得分:0.4069032505201552
+XGBClassifier(base_score=0.5, booster=None, colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints=None,
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=120, n_jobs=0, num_parallel_tree=1,
+              objective='multi:softprob', random_state=0, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=None, subsample=1,
+              tree_method=None, validate_parameters=False, verbosity=None)
+预测时间 in 0.0594 秒
+F1 score and accuracy score for training set: 0.9480 , 0.9497.
+预测时间 in 0.0030 秒
+F1 score and accuracy score for test set: 0.3378 , 0.3800.
+
+
+[0.40343268 0.40690325 0.40376053 0.40429623]
+[{'n_estimators': 110}, {'n_estimators': 120}, {'n_estimators': 130}, {'n_estimators': 140}]
+参数的最佳取值：{'n_estimators': 120}
+最佳模型得分:0.4069032505201552
+XGBClassifier(base_score=0.5, booster=None, colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints=None,
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=120, n_jobs=0, num_parallel_tree=1,
+              objective='multi:softprob', random_state=0, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=None, subsample=1,
+              tree_method=None, validate_parameters=False, verbosity=None)
+预测时间 in 0.0544 秒
+F1 score and accuracy score for training set: 0.9480 , 0.9497.
+预测时间 in 0.0040 秒
+F1 score and accuracy score for test set: 0.3378 , 0.3800.
+
+
+[0.40356407 0.40343268 0.40690325]
+[{'n_estimators': 100}, {'n_estimators': 110}, {'n_estimators': 120}]
+参数的最佳取值：{'n_estimators': 120}
+最佳模型得分:0.4069032505201552
+XGBClassifier(base_score=0.5, booster=None, colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints=None,
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=120, n_jobs=0, num_parallel_tree=1,
+              objective='multi:softprob', random_state=0, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=None, subsample=1,
+              tree_method=None, validate_parameters=False, verbosity=None)
+预测时间 in 0.0359 秒
+F1 score and accuracy score for training set: 0.9480 , 0.9497.
+预测时间 in 0.0030 秒
+F1 score and accuracy score for test set: 0.3378 , 0.3800.
+
+初始
+XGBClassifier(base_score=0.5, booster=None, colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
+              importance_type='gain', interaction_constraints=None,
+              learning_rate=0.300000012, max_delta_step=0, max_depth=6,
+              min_child_weight=1, missing=nan, monotone_constraints=None,
+              n_estimators=120, n_jobs=0, num_parallel_tree=1,
+              objective='multi:softprob', random_state=42, reg_alpha=0,
+              reg_lambda=1, scale_pos_weight=None, seed=42, subsample=1,
+              tree_method=None, validate_parameters=False, verbosity=None)
+预测时间 in 0.0379 秒
+F1 score and accuracy score for training set: 0.9480 , 0.9497.
+预测时间 in 0.0018 秒
+F1 score and accuracy score for test set: 0.3378 , 0.3800.

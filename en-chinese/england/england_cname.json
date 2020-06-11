@@ -1,0 +1,370 @@
+[
+    {
+        "name": "Arsenal",
+        "cnName": "阿森纳"
+    },
+    {
+        "name": "Aston Villa",
+        "cnName": "阿斯顿维拉"
+    },
+    {
+        "name": "Birmingham",
+        "cnName": "伯明翰"
+    },
+    {
+        "name": "Blackburn",
+        "cnName": "布莱克本"
+    },
+    {
+        "name": "Bolton",
+        "cnName": "博尔顿"
+    },
+    {
+        "name": "Charlton",
+        "cnName": "查尔顿"
+    },
+    {
+        "name": "Chelsea",
+        "cnName": "切尔西"
+    },
+    {
+        "name": "Everton",
+        "cnName": "埃弗顿"
+    },
+    {
+        "name": "Fulham",
+        "cnName": "富勒姆"
+    },
+    {
+        "name": "Liverpool",
+        "cnName": "利物浦"
+    },
+    {
+        "name": "Man City",
+        "cnName": "曼城"
+    },
+    {
+        "name": "Man United",
+        "cnName": "曼联"
+    },
+    {
+        "name": "Middlesbrough",
+        "cnName": "米德尔斯堡"
+    },
+    {
+        "name": "Newcastle",
+        "cnName": "纽卡斯尔"
+    },
+    {
+        "name": "Portsmouth",
+        "cnName": "朴次茅斯"
+    },
+    {
+        "name": "Sunderland",
+        "cnName": "桑德兰"
+    },
+    {
+        "name": "Tottenham",
+        "cnName": "热刺"
+    },
+    {
+        "name": "West Brom",
+        "cnName": "西布罗姆维奇"
+    },
+    {
+        "name": "West Ham",
+        "cnName": "西汉姆联"
+    },
+    {
+        "name": "Wigan",
+        "cnName": "维冈竞技"
+    },
+    {
+        "name": "Brighton",
+        "cnName": "布莱顿"
+    },
+    {
+        "name": "Burnley",
+        "cnName": "伯恩利"
+    },
+    {
+        "name": "Cardiff",
+        "cnName": "卡迪夫城"
+    },
+    {
+        "name": "Coventry",
+        "cnName": "考文垂"
+    },
+    {
+        "name": "Crewe",
+        "cnName": "克鲁"
+    },
+    {
+        "name": "Crystal Palace",
+        "cnName": "水晶宫"
+    },
+    {
+        "name": "Derby",
+        "cnName": "德比郡"
+    },
+    {
+        "name": "Hull",
+        "cnName": "赫尔城"
+    },
+    {
+        "name": "Ipswich",
+        "cnName": "伊普斯威奇"
+    },
+    {
+        "name": "Leeds",
+        "cnName": "利兹联"
+    },
+    {
+        "name": "Leicester",
+        "cnName": "莱斯特城"
+    },
+    {
+        "name": "Luton",
+        "cnName": "卢顿"
+    },
+    {
+        "name": "Millwall",
+        "cnName": "米尔沃尔"
+    },
+    {
+        "name": "Norwich",
+        "cnName": "诺维奇"
+    },
+    {
+        "name": "Plymouth",
+        "cnName": "普利茅斯"
+    },
+    {
+        "name": "Preston",
+        "cnName": "普雷斯顿"
+    },
+    {
+        "name": "QPR",
+        "cnName": "女王公园巡游者"
+    },
+    {
+        "name": "Reading",
+        "cnName": "雷丁"
+    },
+    {
+        "name": "Sheffield United",
+        "cnName": "谢菲尔德联"
+    },
+    {
+        "name": "Sheffield Weds",
+        "cnName": "谢菲尔德周三"
+    },
+    {
+        "name": "Southampton",
+        "cnName": "南安普敦"
+    },
+    {
+        "name": "Stoke",
+        "cnName": "斯托克城"
+    },
+    {
+        "name": "Watford",
+        "cnName": "沃特福德"
+    },
+    {
+        "name": "Wolves",
+        "cnName": "狼队"
+    },
+    {
+        "name": "Barnsley",
+        "cnName": "巴恩斯利"
+    },
+    {
+        "name": "Blackpool",
+        "cnName": "布莱克浦"
+    },
+    {
+        "name": "Bournemouth",
+        "cnName": "伯恩茅斯"
+    },
+    {
+        "name": "Bradford",
+        "cnName": "布拉德福德"
+    },
+    {
+        "name": "Brentford",
+        "cnName": "布伦特福德"
+    },
+    {
+        "name": "Bristol City",
+        "cnName": "布里斯托城"
+    },
+    {
+        "name": "Chesterfield",
+        "cnName": "切斯特菲尔德"
+    },
+    {
+        "name": "Colchester",
+        "cnName": "科切斯特联"
+    },
+    {
+        "name": "Doncaster",
+        "cnName": "唐卡斯特"
+    },
+    {
+        "name": "Gillingham",
+        "cnName": "吉林汉姆"
+    },
+    {
+        "name": "Hartlepool",
+        "cnName": "哈特利浦"
+    },
+    {
+        "name": "Huddersfield",
+        "cnName": "哈德斯菲尔德"
+    },
+    {
+        "name": "Milton Keynes Dons",
+        "cnName": "米尔顿凯恩斯"
+    },
+    {
+        "name": "Nott'm Forest",
+        "cnName": "诺丁汉森林"
+    },
+    {
+        "name": "Oldham",
+        "cnName": "奥德汉姆"
+    },
+    {
+        "name": "Port Vale",
+        "cnName": "维尔港"
+    },
+    {
+        "name": "Rotherham",
+        "cnName": "罗瑟汉姆"
+    },
+    {
+        "name": "Scunthorpe",
+        "cnName": "斯坎索普"
+    },
+    {
+        "name": "Southend",
+        "cnName": "南安联"
+    },
+    {
+        "name": "Swansea",
+        "cnName": "斯旺西"
+    },
+    {
+        "name": "Swindon",
+        "cnName": "斯文登"
+    },
+    {
+        "name": "Tranmere",
+        "cnName": "特兰米尔"
+    },
+    {
+        "name": "Walsall",
+        "cnName": "沃尔索尔"
+    },
+    {
+        "name": "Yeovil",
+        "cnName": "约维尔"
+    },
+    {
+        "name": "Barnet",
+        "cnName": "巴尼特"
+    },
+    {
+        "name": "Boston",
+        "cnName": "波士顿联队"
+    },
+    {
+        "name": "Bristol Rvs",
+        "cnName": "布里斯托流浪"
+    },
+    {
+        "name": "Bury",
+        "cnName": "伯利"
+    },
+    {
+        "name": "Carlisle",
+        "cnName": "卡利斯尔联"
+    },
+    {
+        "name": "Cheltenham",
+        "cnName": "切尔滕纳姆"
+    },
+    {
+        "name": "Chester",
+        "cnName": "切斯特"
+    },
+    {
+        "name": "Darlington",
+        "cnName": "达宁顿"
+    },
+    {
+        "name": "Grimsby",
+        "cnName": "格林斯比"
+    },
+    {
+        "name": "Leyton Orient",
+        "cnName": "莱顿东方"
+    },
+    {
+        "name": "Lincoln",
+        "cnName": "林肯城"
+    },
+    {
+        "name": "Macclesfield",
+        "cnName": "马科斯菲尔德"
+    },
+    {
+        "name": "Mansfield",
+        "cnName": "曼斯菲尔德"
+    },
+    {
+        "name": "Northampton",
+        "cnName": "北安普敦"
+    },
+    {
+        "name": "Notts County",
+        "cnName": "诺茨郡"
+    },
+    {
+        "name": "Oxford",
+        "cnName": "牛津联队"
+    },
+    {
+        "name": "Peterboro",
+        "cnName": "彼得堡联"
+    },
+    {
+        "name": "Rochdale",
+        "cnName": "罗奇代尔"
+    },
+    {
+        "name": "Rushden & D",
+        "cnName": "鲁什登钻石"
+    },
+    {
+        "name": "Shrewsbury",
+        "cnName": "谢斯伯利"
+    },
+    {
+        "name": "Stockport",
+        "cnName": "斯托克港"
+    },
+    {
+        "name": "Torquay",
+        "cnName": "托奎联"
+    },
+    {
+        "name": "Wrexham",
+        "cnName": "雷克斯汉姆"
+    },
+    {
+        "name": "Wycombe",
+        "cnName": "韦康比流浪者"
+    }
+]
