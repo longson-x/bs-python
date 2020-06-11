@@ -6,6 +6,7 @@ import pandas as pd
 import json
 import os
 import csv
+from pymongo import MongoClient as Client
 
 
 def get_cnName(val, dataSet):
@@ -193,20 +194,40 @@ def get_data_diff(playing_stat, country, season, dataNum):
         data = sorted(data, key=lambda x: (-x['points'], -x['gds'], -x['ags'], -x['winNum'], -x['drawNum']))  # 排序
 
         all.append({
+            'leagueName': returnLeagueName(country),
+            'season': season,
             'week': str(i+1),
             'weekData': data
         })
         data = []
     # print(points)
     # print(all)  # all为20支队伍截止到每轮的总净胜球、平均净胜球
+    myclient = Client('mongodb://localhost:27017/')
+    mydb = myclient['bs_db']
+    mycol = mydb[country]
+    for item in all:
+        mycol.insert_one(item)
+    myclient.close()
 
-    if not os.path.exists('./files/%s' % country):
-        os.makedirs('./files/%s' % country)
-    with open('./files/%s/%s.json' % (country, season), 'w', encoding='utf-8') as f:
-        json.dump(all, f, ensure_ascii=False)
+    # if not os.path.exists('./files/%s' % country):
+    #     os.makedirs('./files/%s' % country)
+    # with open('./files/%s/%s.json' % (country, season), 'w', encoding='utf-8') as f:
+    #     json.dump(all, f, ensure_ascii=False)
 
     # 要做每轮累积总得分，平均每周得分、截止到每轮的总进球，失球、胜负平场次
 
+def returnLeagueName(eng):
+    if eng == 'england':
+        return '英格兰足球超级联赛'
+    elif eng == 'italy':
+        return '意大利足球甲级联赛'
+    elif eng == 'spain':
+        return '西班牙足球甲级联赛'
+    elif eng == 'germany':
+        return '德国足球甲级联赛'
+    elif eng == 'france':
+        return '法国足球甲级联赛'
+    else: return ''
 
 if __name__ == '__main__':
     year = ['2005-06', '2006-07', '2007-08', '2008-09', '2009-10', '2010-11', '2011-12', '2012-13', '2013-14', '2014-15', '2015-16', '2016-17', '2017-18', '2018-19', '2019-20']
