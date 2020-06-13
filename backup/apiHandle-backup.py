@@ -1,6 +1,5 @@
 import pandas as pd
 import joblib
-from pymongo import MongoClient as Client
 
 from flask import Flask, request
 import json
@@ -31,26 +30,12 @@ def getSeasonData():
     country = request.values.get('country')
     season = request.values.get('season')
     if season:
-        # json文件形式返回数据
-
-        # length = 0
-        # with open('./files/%s/%s.json' % (country, season),'r',encoding='utf-8') as fp:
-        #     allData = json.load(fp)
-        # for i in allData:
-        #     length = length + 1
-        # return {'code': 0, 'msg': '数据请求成功', 'data': allData[length-1]}
-
-        myclient = Client('mongodb://localhost:27017/')
-        mydb = myclient['bs_db']
-        mycol = mydb[country]
-        countQuery = {'season': season}
-        count = mycol.find(countQuery).count()
-        dataQuery = {'season': season, 'week': str(count)}
-        data = {}
-        for item in mycol.find(dataQuery):
-            item.pop('_id')
-            data = item
-        return {'code': 0, 'msg': '数据请求成功', 'data': data}
+        length = 0
+        with open('./files/%s/%s.json' % (country, season),'r',encoding='utf-8') as fp:
+            allData = json.load(fp)
+        for i in allData:
+            length = length + 1
+        return {'code': 0, 'msg': '数据请求成功', 'data': allData[length - 1]}
     else:
         return {'code': 1001, 'msg': '调用接口失败', 'data': ''}
 
@@ -61,21 +46,9 @@ def getSeasonCurrentData():
     season = request.values.get('season')
     num = request.values.get('num')
     if num:
-        # json文件形式返回数据
-
-        # with open('./files/%s/%s.json' % (country, season),'r',encoding='utf-8') as fp:
-        #     allData = json.load(fp)
-        # return {'code': 0, 'msg': '数据请求成功', 'data': allData[int(num) - 1]}
-
-        myclient = Client('mongodb://localhost:27017/')
-        mydb = myclient['bs_db']
-        mycol = mydb[country]
-        dataQuery = {'season': season, 'week': num}
-        data = {}
-        for item in mycol.find(dataQuery):
-            item.pop('_id')
-            data = item
-        return {'code': 0, 'msg': '数据请求成功', 'data': data}
+        with open('./files/%s/%s.json' % (country, season),'r',encoding='utf-8') as fp:
+            allData = json.load(fp)
+        return {'code': 0, 'msg': '数据请求成功', 'data': allData[int(num) - 1]}
     else:
         return {'code': 1001, 'msg': '调用接口失败', 'data': ''}
 

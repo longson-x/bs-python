@@ -118,7 +118,8 @@ def get_data_diff(playing_stat, country, season, dataNum):
         loseNum[i] = []
     # print(name)
 
-    all = []
+    all = [] #json文件调用
+    all_db = [] #数据库调用
     data = []
 
     for i in range(0, dataNum):
@@ -194,6 +195,10 @@ def get_data_diff(playing_stat, country, season, dataNum):
         data = sorted(data, key=lambda x: (-x['points'], -x['gds'], -x['ags'], -x['winNum'], -x['drawNum']))  # 排序
 
         all.append({
+            'week': str(i+1),
+            'weekData': data
+        })
+        all_db.append({
             'leagueName': returnLeagueName(country),
             'season': season,
             'week': str(i+1),
@@ -205,14 +210,14 @@ def get_data_diff(playing_stat, country, season, dataNum):
     myclient = Client('mongodb://localhost:27017/')
     mydb = myclient['bs_db']
     mycol = mydb[country]
-    for item in all:
+    for item in all_db:
         mycol.insert_one(item)
     myclient.close()
 
-    # if not os.path.exists('./files/%s' % country):
-    #     os.makedirs('./files/%s' % country)
-    # with open('./files/%s/%s.json' % (country, season), 'w', encoding='utf-8') as f:
-    #     json.dump(all, f, ensure_ascii=False)
+    if not os.path.exists('./files/%s' % country):
+        os.makedirs('./files/%s' % country)
+    with open('./files/%s/%s.json' % (country, season), 'w', encoding='utf-8') as f:
+        json.dump(all, f, ensure_ascii=False)
 
     # 要做每轮累积总得分，平均每周得分、截止到每轮的总进球，失球、胜负平场次
 
