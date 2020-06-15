@@ -96,7 +96,7 @@ def get_gss(match_data):
     # 得到净胜球数统计
     GD = get_week_gds(match_data)
 
-    j = 0
+    j = 1
 
     HTGD = []
     ATGD = []
