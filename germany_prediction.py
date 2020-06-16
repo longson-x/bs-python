@@ -183,7 +183,7 @@ def get_total_points(match_data):
     cum_pts = add_col_points(matchres)
     HTP = []
     ATP = []
-    j = 0
+    j = 1
     for i in range(306):
         ht = match_data.iloc[i].HomeTeam
         at = match_data.iloc[i].AwayTeam

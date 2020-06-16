@@ -183,7 +183,7 @@ def get_total_points(match_data):
     cum_pts = add_col_points(matchres)
     HTP = []
     ATP = []
-    j = 0
+    j = 1
     for i in range(380):
         ht = match_data.iloc[i].HomeTeam
         at = match_data.iloc[i].AwayTeam
@@ -473,7 +473,7 @@ def train_predict(clf, X_train, y_train, X_test, y_test):
 
 
 # 分别建立三个模型
-clf_A = LogisticRegression(random_state=42)  # Logistic回归
+clf_A = LogisticRegression(random_state=42, multi_class='ovr')  # Logistic回归
 # clf_B = SVC(random_state=42, kernel='rbf', gamma='auto')  # 支持向量机 暂时不要
 clf_C = xgb.XGBClassifier(seed=42)  # xgboost
 
